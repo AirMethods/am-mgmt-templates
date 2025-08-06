@@ -85,7 +85,7 @@ runs:
           }
 
           $retryCount = 0
-          $retryMax = 10
+          $retryMax = 2
           $initialRetryDelay = 20
           $retryDelayIncrement = 10
           $finalSuccess = $false
